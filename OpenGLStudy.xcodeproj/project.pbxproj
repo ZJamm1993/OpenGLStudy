@@ -14,14 +14,25 @@
 		1C13A1472359633600194A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A1462359633600194A89 /* main.m */; };
 		1C13A14F235963B700194A89 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C13A14E235963B700194A89 /* OpenGLES.framework */; };
 		1C13A151235963EB00194A89 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C13A150235963EB00194A89 /* GLKit.framework */; };
-		1C13A163235990CE00194A89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A162235990CE00194A89 /* ViewController.m */; };
-		1C13A1672359910C00194A89 /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A1662359910C00194A89 /* MyOpenGLView.m */; };
+		1C13A163235990CE00194A89 /* HelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A162235990CE00194A89 /* HelloViewController.m */; };
 		1C13A17D2359B7F200194A89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A17C2359B7F200194A89 /* AppDelegate.m */; };
 		1C13A1802359B7F200194A89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A17F2359B7F200194A89 /* ViewController.m */; };
 		1C13A1822359B7F200194A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C13A1812359B7F200194A89 /* Assets.xcassets */; };
 		1C13A1852359B7F200194A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C13A1832359B7F200194A89 /* Main.storyboard */; };
 		1C13A1882359B7F200194A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A1872359B7F200194A89 /* main.m */; };
 		1C13A1902359BB0A00194A89 /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C13A18F2359BB0A00194A89 /* MyOpenGLView.m */; };
+		1C461B34235DA36300AFC862 /* CustomOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C461B33235DA36300AFC862 /* CustomOpenGLView.m */; };
+		1C461B36235EDA5100AFC862 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C461B35235EDA5100AFC862 /* test.png */; };
+		1C461B37235EDA5100AFC862 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C461B35235EDA5100AFC862 /* test.png */; };
+		1C461B3A235EE27D00AFC862 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C461B39235EE27D00AFC862 /* MyTableViewController.m */; };
+		1C461B3B235EE27D00AFC862 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C461B39235EE27D00AFC862 /* MyTableViewController.m */; };
+		1C461B3E235EFE1500AFC862 /* EarthMoonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C461B3D235EFE1500AFC862 /* EarthMoonViewController.m */; };
+		1C461B44235EFF1200AFC862 /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C461B42235EFF1200AFC862 /* Earth512x256.jpg */; };
+		1C461B47235F03D600AFC862 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C461B46235F03D600AFC862 /* AGLKVertexAttribArrayBuffer.m */; };
+		1C461B49235FEE3500AFC862 /* Moon256x128.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C461B48235FEE3500AFC862 /* Moon256x128.jpg */; };
+		1C461B4C23614EF500AFC862 /* SceneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C461B4A23614EF500AFC862 /* SceneUtil.m */; };
+		1C461B5023614F5500AFC862 /* MyBaseGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C461B4F23614F5500AFC862 /* MyBaseGLKViewController.m */; };
+		1C461B542361516600AFC862 /* LightTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C461B522361516600AFC862 /* LightTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,10 +48,8 @@
 		1C13A150235963EB00194A89 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		1C13A15D23598DED00194A89 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
 		1C13A15F23598E3C00194A89 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/GLUT.framework; sourceTree = DEVELOPER_DIR; };
-		1C13A161235990CE00194A89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1C13A162235990CE00194A89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1C13A1652359910C00194A89 /* MyOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
-		1C13A1662359910C00194A89 /* MyOpenGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		1C13A161235990CE00194A89 /* HelloViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloViewController.h; sourceTree = "<group>"; };
+		1C13A162235990CE00194A89 /* HelloViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloViewController.m; sourceTree = "<group>"; };
 		1C13A1792359B7F200194A89 /* OpenGLStudyMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLStudyMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C13A17B2359B7F200194A89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C13A17C2359B7F200194A89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +62,24 @@
 		1C13A1892359B7F200194A89 /* OpenGLStudyMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGLStudyMacApp.entitlements; sourceTree = "<group>"; };
 		1C13A18E2359BB0A00194A89 /* MyOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
 		1C13A18F2359BB0A00194A89 /* MyOpenGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		1C461B32235DA36300AFC862 /* CustomOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomOpenGLView.h; sourceTree = "<group>"; };
+		1C461B33235DA36300AFC862 /* CustomOpenGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomOpenGLView.m; sourceTree = "<group>"; };
+		1C461B35235EDA5100AFC862 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		1C461B38235EE27D00AFC862 /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		1C461B39235EE27D00AFC862 /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		1C461B3C235EFE1500AFC862 /* EarthMoonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthMoonViewController.h; sourceTree = "<group>"; };
+		1C461B3D235EFE1500AFC862 /* EarthMoonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthMoonViewController.m; sourceTree = "<group>"; };
+		1C461B41235EFF1200AFC862 /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		1C461B42235EFF1200AFC862 /* Earth512x256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth512x256.jpg; sourceTree = "<group>"; };
+		1C461B45235F03D600AFC862 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		1C461B46235F03D600AFC862 /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		1C461B48235FEE3500AFC862 /* Moon256x128.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Moon256x128.jpg; sourceTree = "<group>"; };
+		1C461B4A23614EF500AFC862 /* SceneUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneUtil.m; sourceTree = "<group>"; };
+		1C461B4B23614EF500AFC862 /* SceneUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneUtil.h; sourceTree = "<group>"; };
+		1C461B4E23614F5500AFC862 /* MyBaseGLKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBaseGLKViewController.h; sourceTree = "<group>"; };
+		1C461B4F23614F5500AFC862 /* MyBaseGLKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBaseGLKViewController.m; sourceTree = "<group>"; };
+		1C461B512361516600AFC862 /* LightTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightTestViewController.h; sourceTree = "<group>"; };
+		1C461B522361516600AFC862 /* LightTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +124,13 @@
 		1C13A1362359633400194A89 /* OpenGLStudy */ = {
 			isa = PBXGroup;
 			children = (
+				1C461B4D23614F0700AFC862 /* util */,
+				1C461B3F235EFF0300AFC862 /* res */,
 				1C13A164235990FC00194A89 /* MyClass */,
 				1C13A1372359633400194A89 /* AppDelegate.h */,
 				1C13A1382359633400194A89 /* AppDelegate.m */,
-				1C13A161235990CE00194A89 /* ViewController.h */,
-				1C13A162235990CE00194A89 /* ViewController.m */,
+				1C461B38235EE27D00AFC862 /* MyTableViewController.h */,
+				1C461B39235EE27D00AFC862 /* MyTableViewController.m */,
 				1C13A13D2359633400194A89 /* Main.storyboard */,
 				1C13A1402359633600194A89 /* Assets.xcassets */,
 				1C13A1422359633600194A89 /* LaunchScreen.storyboard */,
@@ -125,8 +154,12 @@
 		1C13A164235990FC00194A89 /* MyClass */ = {
 			isa = PBXGroup;
 			children = (
-				1C13A1652359910C00194A89 /* MyOpenGLView.h */,
-				1C13A1662359910C00194A89 /* MyOpenGLView.m */,
+				1C13A161235990CE00194A89 /* HelloViewController.h */,
+				1C13A162235990CE00194A89 /* HelloViewController.m */,
+				1C461B3C235EFE1500AFC862 /* EarthMoonViewController.h */,
+				1C461B3D235EFE1500AFC862 /* EarthMoonViewController.m */,
+				1C461B512361516600AFC862 /* LightTestViewController.h */,
+				1C461B522361516600AFC862 /* LightTestViewController.m */,
 			);
 			path = MyClass;
 			sourceTree = "<group>";
@@ -153,8 +186,34 @@
 			children = (
 				1C13A18E2359BB0A00194A89 /* MyOpenGLView.h */,
 				1C13A18F2359BB0A00194A89 /* MyOpenGLView.m */,
+				1C461B32235DA36300AFC862 /* CustomOpenGLView.h */,
+				1C461B33235DA36300AFC862 /* CustomOpenGLView.m */,
 			);
 			path = MyClass;
+			sourceTree = "<group>";
+		};
+		1C461B3F235EFF0300AFC862 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				1C461B42235EFF1200AFC862 /* Earth512x256.jpg */,
+				1C461B48235FEE3500AFC862 /* Moon256x128.jpg */,
+				1C461B35235EDA5100AFC862 /* test.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		1C461B4D23614F0700AFC862 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				1C461B41235EFF1200AFC862 /* sphere.h */,
+				1C461B4B23614EF500AFC862 /* SceneUtil.h */,
+				1C461B4A23614EF500AFC862 /* SceneUtil.m */,
+				1C461B45235F03D600AFC862 /* AGLKVertexAttribArrayBuffer.h */,
+				1C461B46235F03D600AFC862 /* AGLKVertexAttribArrayBuffer.m */,
+				1C461B4E23614F5500AFC862 /* MyBaseGLKViewController.h */,
+				1C461B4F23614F5500AFC862 /* MyBaseGLKViewController.m */,
+			);
+			path = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C13A1442359633600194A89 /* LaunchScreen.storyboard in Resources */,
+				1C461B49235FEE3500AFC862 /* Moon256x128.jpg in Resources */,
 				1C13A1412359633600194A89 /* Assets.xcassets in Resources */,
+				1C461B44235EFF1200AFC862 /* Earth512x256.jpg in Resources */,
 				1C13A13F2359633400194A89 /* Main.storyboard in Resources */,
+				1C461B36235EDA5100AFC862 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +309,7 @@
 			files = (
 				1C13A1822359B7F200194A89 /* Assets.xcassets in Resources */,
 				1C13A1852359B7F200194A89 /* Main.storyboard in Resources */,
+				1C461B37235EDA5100AFC862 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C13A163235990CE00194A89 /* ViewController.m in Sources */,
+				1C461B47235F03D600AFC862 /* AGLKVertexAttribArrayBuffer.m in Sources */,
+				1C461B3E235EFE1500AFC862 /* EarthMoonViewController.m in Sources */,
+				1C461B5023614F5500AFC862 /* MyBaseGLKViewController.m in Sources */,
+				1C13A163235990CE00194A89 /* HelloViewController.m in Sources */,
 				1C13A1472359633600194A89 /* main.m in Sources */,
+				1C461B4C23614EF500AFC862 /* SceneUtil.m in Sources */,
 				1C13A1392359633400194A89 /* AppDelegate.m in Sources */,
-				1C13A1672359910C00194A89 /* MyOpenGLView.m in Sources */,
+				1C461B542361516600AFC862 /* LightTestViewController.m in Sources */,
+				1C461B3A235EE27D00AFC862 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +338,8 @@
 			files = (
 				1C13A1802359B7F200194A89 /* ViewController.m in Sources */,
 				1C13A1882359B7F200194A89 /* main.m in Sources */,
+				1C461B34235DA36300AFC862 /* CustomOpenGLView.m in Sources */,
+				1C461B3B235EE27D00AFC862 /* MyTableViewController.m in Sources */,
 				1C13A17D2359B7F200194A89 /* AppDelegate.m in Sources */,
 				1C13A1902359BB0A00194A89 /* MyOpenGLView.m in Sources */,
 			);
@@ -423,7 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OpenGLStudy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,7 +510,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OpenGLStudy/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
